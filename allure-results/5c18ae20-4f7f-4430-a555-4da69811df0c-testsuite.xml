@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643664267877' stop='1643664272858'>
+    <name>SMOKE TEST</name>
+    <title>SMOKE TEST</title>
+    <test-cases>
+        <test-case start='1643664267877' status='broken' stop='1643664272858'>
+            <name>Should verify Home page </name>
+            <title>Should verify Home page </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+            </parameters>
+            <steps>
+                <step start='1643664267879' status='broken' stop='1643664272857'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d065ee09-4c08-4e71-9492-15ea758a8b36-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps>
+                        <step start='1643664267934' status='broken' stop='1643664272857'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1643664267943' status='passed' stop='1643664272849'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='36d4b9ce-103a-4cb0-8061-9a350636c42d-attachment.json' type='application/json' size='61'/>
+                                        <attachment title='Screenshot' source='70ed84f9-ec92-4562-b4b5-b199eec9f400-attachment.png' type='image/png' size='19605'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1643664267952' status='passed' stop='1643664272448'>
+                                            <name>GET /session/:sessionId/screenshot</name>
+                                            <title>GET /session/:sessionId/screenshot</title>
+                                            <attachments>
+                                                <attachment title='Response' source='10fe9fe8-4227-48f3-8ad1-c59be85c8d95-attachment.json' type='application/json' size='57'/>
+                                            </attachments>
+                                            <steps>
+                                                <step start='1643664267954' status='passed' stop='1643664272305'>
+                                                    <name>POST /session/:sessionId/element</name>
+                                                    <title>POST /session/:sessionId/element</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='08261482-c9ea-4d10-bdfc-83f3661b8188-attachment.json' type='application/json' size='63'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'equal')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'equal')
+                    at Context.&lt;anonymous> (/Users/shulaeva_tatiana/dealerpolicy/test/specs/example.e2e.js:13:10)
+                    at Context.executeAsync (/Users/shulaeva_tatiana/dealerpolicy/node_modules/@wdio/utils/build/shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (/Users/shulaeva_tatiana/dealerpolicy/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

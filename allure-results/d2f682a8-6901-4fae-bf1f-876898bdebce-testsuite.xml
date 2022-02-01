@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643673184667' stop='1643673189053'>
+    <name>SMOKE TEST</name>
+    <title>SMOKE TEST</title>
+    <test-cases>
+        <test-case start='1643673184667' status='failed' stop='1643673189036'>
+            <name>Should verify Home page </name>
+            <title>Should verify Home page </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+            </parameters>
+            <steps>
+                <step start='1643673184669' status='failed' stop='1643673189035'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='076cc19f-ca95-47a4-8bc1-5421f3b8b7cb-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps>
+                        <step start='1643673184693' status='failed' stop='1643673189035'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1643673184702' status='passed' stop='1643673188730'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='adf151a6-dc0f-4c6f-93c5-8f2831790394-attachment.json' type='application/json' size='54'/>
+                                        <attachment title='Response' source='8255b7a5-63cb-4569-914a-9f8528b66d83-attachment.json' type='application/json' size='1935'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1643673184710' status='passed' stop='1643673188709'>
+                                            <name>GET /session/:sessionId/screenshot</name>
+                                            <title>GET /session/:sessionId/screenshot</title>
+                                            <attachments>
+                                                <attachment title='Response' source='c3657ee1-fe5e-4e5f-affb-5846f0b5ab39-attachment.json' type='application/json' size='57'/>
+                                            </attachments>
+                                            <steps>
+                                                <step start='1643673184714' status='passed' stop='1643673188570'>
+                                                    <name>POST /session/:sessionId/element</name>
+                                                    <title>POST /session/:sessionId/element</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='b40d9d81-3a3f-4ef6-9314-96e1a25b5aaa-attachment.json' type='application/json' size='66'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                                <step start='1643673188737' status='passed' stop='1643673189024'>
+                                    <name>POST /session/:sessionId/elements</name>
+                                    <title>POST /session/:sessionId/elements</title>
+                                    <attachments>
+                                        <attachment title='Request' source='1038f2ed-d39d-4783-b55e-a9d29357356a-attachment.json' type='application/json' size='54'/>
+                                        <attachment title='Screenshot' source='b46b089b-8138-4455-942d-a89a68d84dd2-attachment.png' type='image/png' size='21350'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1643673189041' status='undefined'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='8bfe21d9-f65c-4440-8bea-e2c2d3ae748c-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='0efd4694-1c84-4b52-92bb-bfaab4734a4e-attachment.json' type='application/json' size='1947'/>
+            </attachments>
+            <failure>
+                <message>expected Promise{…} to equal 'First Name'      
+                      actual expected
+                      
+                      Promise'First [Promise] {}Name'
+                      </message>
+                <stack-trace>AssertionError: expected Promise{…} to equal 'First Name'
+                    at Context.&lt;anonymous> (/Users/shulaeva_tatiana/dealerpolicy/test/specs/example.e2e.js:14:49)
+                    at Context.executeAsync (/Users/shulaeva_tatiana/dealerpolicy/node_modules/@wdio/utils/build/shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (/Users/shulaeva_tatiana/dealerpolicy/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
